@@ -1,0 +1,67 @@
+$date
+	Sun Mar  1 19:14:59 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_allgates $end
+$var wire 1 ! xor_ab $end
+$var wire 1 " or_ab $end
+$var wire 1 # not_a $end
+$var wire 1 $ nand_ab $end
+$var wire 1 % and_ab $end
+$var reg 1 & a $end
+$var reg 1 ' b $end
+$scope module g1 $end
+$var wire 1 & a $end
+$var wire 1 ' b $end
+$var wire 1 % o $end
+$upscope $end
+$scope module g2 $end
+$var wire 1 & a $end
+$var wire 1 ' b $end
+$var wire 1 " o $end
+$upscope $end
+$scope module g3 $end
+$var wire 1 & a $end
+$var wire 1 ' b $end
+$var wire 1 ! o $end
+$upscope $end
+$scope module g4 $end
+$var wire 1 & a $end
+$var wire 1 ' b $end
+$var wire 1 $ o $end
+$upscope $end
+$scope module g5 $end
+$var wire 1 & a $end
+$var wire 1 # o $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0'
+0&
+0%
+1$
+1#
+0"
+0!
+$end
+#10000
+1"
+1!
+1'
+#20000
+0#
+0'
+1&
+#30000
+0$
+1%
+0!
+1'
+#40000

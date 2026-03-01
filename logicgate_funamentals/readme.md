@@ -35,9 +35,9 @@ there are no_ports in the testbench as this is not connected with any input and 
 Verilog provides these basic gates by default but for the sake of learning we made our own.
 
 ## AUTHOR
-Ridam katwal 
-student,Elecronics and communication Engineering
-pulchowk campus, Tribhuvan University
-Nepal
+* Ridam katwal 
+* student,Elecronics and communication Engineering
+* pulchowk campus, Tribhuvan University
+* Nepal
 
-continue the journey
+* continue the journey

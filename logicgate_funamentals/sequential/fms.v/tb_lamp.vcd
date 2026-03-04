@@ -1,0 +1,96 @@
+$date
+	Wed Mar  4 12:10:48 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ms
+$end
+$scope module tb_lamp $end
+$var wire 3 ! light [2:0] $end
+$var reg 1 " clock $end
+$scope module l1 $end
+$var wire 1 " clock $end
+$var reg 3 # light [2:0] $end
+$var reg 2 $ state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+bx #
+0"
+bx !
+$end
+#50
+b1 $
+b0 !
+b0 #
+1"
+#100
+0"
+#150
+b10 $
+b1 !
+b1 #
+1"
+#200
+0"
+#250
+b0 $
+b10 !
+b10 #
+1"
+#300
+0"
+#350
+b1 $
+b0 !
+b0 #
+1"
+#400
+0"
+#450
+b10 $
+b1 !
+b1 #
+1"
+#500
+0"
+#550
+b0 $
+b10 !
+b10 #
+1"
+#600
+0"
+#650
+b1 $
+b0 !
+b0 #
+1"
+#700
+0"
+#750
+b10 $
+b1 !
+b1 #
+1"
+#800
+0"
+#850
+b0 $
+b10 !
+b10 #
+1"
+#900
+0"
+#950
+b1 $
+b0 !
+b0 #
+1"
+#1000
+0"

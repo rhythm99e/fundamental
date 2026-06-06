@@ -6,6 +6,7 @@ module controlunit(
     output reg alusrc,
     output reg branch,
     output reg jump,
+    output reg memwrite,
     output reg [1:0] aluop
 );
 //defing the control signals based on opcode
@@ -23,6 +24,7 @@ always @(*)begin
     branch = 0;
     jump = 0;
     aluop = 2'b00;
+    memwrite = 0;
     case(opcode)
         R_TYPE: begin
             regwrite=1;
